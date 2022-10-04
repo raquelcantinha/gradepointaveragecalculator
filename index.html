@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="=width=device-width" initial-scale=1.0>
+        <link href="style.css" rel="stylesheet"/>
+        <title>Calculadora de média</title>
+    </head>
+
+    <body>
+        <section class="inicio">
+            <div class="apresentacao">
+                <h1>Calculadora de médias</h1>
+                <p>A gente sabe que quando chega o fim do ano, tudo o que você quer é ver que seu esforço valeu a pena e o seu aprendizado evoluiu!</p>
+                <p>Então a gente resolveu te ajudar a saber a sua situação acadêmica de forma fácil!</p>
+                <p>Na calculadora ao lado, basta digitar sua nota em cada um dos módulos do ano letivo, e sua média anual e situação acadêmica serão geradas rapidinho.</p>
+            </div>
+        </section>
+        <section class="calculadora">
+            <div class="dados">
+                <h5 class="titulo1">Nome e sobrenome</h5>
+                <input type="text" id="nomesobrenome" placeholder="Ex.: Fulano de Tal">
+                <h5 class="titulo1">Notas</h5>
+                <h6>Módulo 1</h6>
+                <input class="numero" type="number" id="primeiromodulo" />
+                <h6>Módulo 2</h6>
+                <input class="numero" type="number" id="segundomodulo" />
+                <h6>Módulo 3</h6>
+                <input class="numero" type="number" id="terceiromodulo" />
+                <h6>Módulo 4</h6>
+                <input class="numero" type="number" id="quartomodulo" />
+                <button type="submit" onclick="javascript:acao()">Calcular média anual</button>
+                <h5 class="titulo1">Situação acadêmica</h5>
+                <p id="saudacao">Você deve preencher os campos acima para calcular sua média anual e gerar sua situação acadêmica.</p>
+                <p id="resultado"></p>
+                <p id="situacao"></p>
+            </div>
+        </section>
+        <section class="orientacoes">
+            <h2>Orientações</h2>
+            <ul>
+                <li>A média anual mínima para estar em situação de aprovação é 7,0;</li>
+                <li>O resultado informado para a situação acadêmica refere-se apenas à média anual, estando a aprovação também condicionada ao percentual de frequência do aluno, que deve ser consultado na caderneta virtual e deve ser superior ou igual a 75%;</li>
+                <li>Alunos cuja situação anual apresentada for de recuperação, devem procurar a coordenação para obter as informações relacionadas às atividades de novas oportunidades.</li>   
+            </ul>
+        </section>
+              <script src="calc.js"></script>
+    </body>
+</html>
