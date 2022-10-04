@@ -1,5 +1,7 @@
 # Calculadora de média acadêmica_Grade point average calculator
 
+![Desktop and mobile screens showing school average calculator layout. On desktop screen, there is a greeting text on the left and an orientation text on the right, the calculator is between them, at the center of the page. On mobile screen, the three elements are arranged in sequence, one below the other, in this order: greeting text, calculator, orientation text.](https://github.com/raquelcantinha/gradepointaveragecalculator/blob/main/telas-04.png)
+
 #### pt_br
 
 Este projeto foi criado durante o curso EAD do Senac sobre lógica de programação. O objetivo principal foi desenvolver uma ferramenta que permitisse o cálculo de uma média de notas e a utilizasse como base para gerar o status acadêmico.
